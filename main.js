@@ -2,7 +2,6 @@ let sound = document.querySelector("#sound");
 let form = document.querySelector("#form2");
 let input = document.querySelector("#text");
 let listContainer = document.querySelector(".todolist");
-alert("AI ishlatmadim");
 let username = localStorage.getItem("username");
 let clikded = false;
 if (!username) {
